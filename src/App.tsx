@@ -6,13 +6,27 @@ import logo from "./assets/bunny.png";
 function App(): React.JSX.Element {
     return (
         <>
-            <div className="App">
+            <div className="App" style={{ marginInline: "6%" }}>
                 <header
                     className="App-header"
-                    style={{ backgroundColor: "pink" }}
+                    style={{
+                        backgroundColor: "pink",
+                        border: " 5px solid orange",
+                    }}
                 >
-                    <h1>UD CISC275 with React Hooks and TypeScript</h1>
-                    <img src={logo} alt="A flipped strawberry" />
+                    <h1>HI this is TA selin here....</h1>
+                    <h3>ohhhh yeah .......</h3>
+
+                    <img
+                        src={logo}
+                        alt="A flipped strawberry"
+                        style={{
+                            width: "20%",
+                            height: "40%",
+                            left: "70%",
+                            position: "absolute",
+                        }}
+                    />
                     <Button
                         onClick={() => {
                             console.log("Hello World!");
@@ -21,7 +35,7 @@ function App(): React.JSX.Element {
                         Log Hello World
                     </Button>
                 </header>
-                <p>HI this is TA selin here.... ohhhh yeahhhhh</p>
+                <hr></hr>
 
                 <p>
                     {" "}
